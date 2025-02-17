@@ -1,0 +1,218 @@
+/* styles for questionare */
+
+@import url(https://use.typekit.net/lko6vmw.css);
+@import url(https://use.typekit.net/lko6vmw.css);
+
+body {
+    background-image: url(whiteab.gif);
+    background-size: cover;
+    border-radius: 25px;
+    cursor: url('heart\ pixel\ cursor.png'), auto;
+
+}
+
+
+#main {
+    width:900px;
+    margin:auto;
+    padding: 25px;
+    min-height: 365px;
+    background-color: #fff;
+    border: 6px solid #c7171f;
+    border-radius: 25px;
+    text-align: center;
+    font-family: "typeka", sans-serif; 
+    font-weight: 400;
+    font-size: 18px;
+    font-style: bold;
+    color: #c7171f;
+    top: 125px;
+    left: 280px;
+    position: absolute;
+    box-shadow: 5px 0px 5px 0px #484142;
+}
+
+#main2 {
+    width:900px;
+    margin:auto;
+    padding: 25px;
+    min-height: 410px;
+    background-color: #fff;
+    border: 6px solid #c7171f;
+    border-radius: 25px;
+    text-align: center;
+    font-family: "typeka", sans-serif; 
+    font-weight: 400;
+    font-size: 18px;
+    font-style: bold;
+    color: #c7171f;
+    top: 90px;
+    left: 280px;
+    bottom: 90px;
+    position: absolute;
+    box-shadow: 5px 0px 5px 0px #484142;
+}
+
+#main3 {
+    width:900px;
+    margin:auto;
+    padding: 25px;
+    min-height: 410px;
+    background-color: #fff;
+    border: 6px solid #c7171f;
+    border-radius: 25px;
+    text-align: center;
+    font-family: "typeka", sans-serif; 
+    font-weight: 400;
+    font-size: 18px;
+    font-style: bold;
+    color: #c7171f;
+    top: 90px;
+    left: 280px;
+    bottom: 90px;
+    position: absolute;
+    box-shadow: 5px 0px 5px 0px #484142;
+}
+
+#main4 {
+    width:900px;
+    margin:auto;
+    padding: 25px;
+    min-height: 365px;
+    background-color: #fff;
+    border: 6px solid #c7171f;
+    border-radius: 25px;
+    text-align: center;
+    font-family: "typeka", sans-serif; 
+    font-weight: 400;
+    font-size: 18px;
+    font-style: bold;
+    color: #c7171f;
+    top: 125px;
+    left: 280px;
+    position: absolute;
+    box-shadow: 5px 0px 5px 0px #484142;
+}
+
+button {
+    background-color: #c7171f;
+    position: absolute;
+    left: 50%;
+    top: 29%;
+    display: block;
+    border: 3px solid #c7171f;
+    border-radius: 30px;
+    color: #fff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    font-family: "dico-typewriter", monospace;
+    transform: translate(-50%, -50%);
+    transition: all 0.5s;
+    
+}
+
+.button1 {
+    -moz-animation: inAndOut var(--duration) ease-in forwards;
+    -webkit-animation: inAndOut var(--duration) ease-in forwards;
+    animation: inAndOut var(--duration) ease-in forwards;
+}
+
+.button1:hover {
+    transition-duration: 0.3s;
+    background-color: #fff;
+    color: #c7171f; 
+    border: 3px solid #c7171f;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.button2:hover {
+    transition-duration: 0.3s;
+    background-color: #fff;
+    color: #c7171f; 
+    border: 3px solid #c7171f;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.button3:hover {
+    transition-duration: 0.3s;
+    background-color: #fff;
+    color: #c7171f; 
+    border: 3px solid #c7171f;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.button4:hover {
+    transition-duration: 0.3s;
+    background-color: #fff;
+    color: #c7171f; 
+    border: 3px solid #c7171f;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.button5:hover {
+    transition-duration: 0.3s;
+    background-color: #fff;
+    color: #c7171f; 
+    border: 3px solid #c7171f;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+@keyframes fadeInUp {
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0%);
+      opacity: 1;
+    }
+  }
+  
+  .fadeInUp-animation {
+    animation: 1.5s fadeInUp;
+  }
+
+  @keyframes inAndOut {
+    0% {
+      opacity: 0;
+    }
+    10% {
+      opacity: 1;
+    }
+    90% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+}
+
+.inAndout-animation {
+    animation: 2.5s fadeInUp;
+    animation-delay: 1.3s;
+    animation-fill-mode: both;
+  }
+
+.textbox {
+    padding: 10;
+    height: 100px;
+    width: 500px;
+    position: relative;
+    left: 0;
+    outline: none;
+    border: 1px solid #cdcdcd;
+    border-radius: 15px;
+    border-color: rgba(0, 0, 0, .15);
+    background-color: white;
+    font-size: 14px;
+    background-color: #c7171f;
+    color: #fff;
+  }
